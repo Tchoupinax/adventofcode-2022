@@ -1,0 +1,29 @@
+{
+  "name": "adventofcode-2022",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Tchoupinax/adventofcode-2022.git",
+  "author": "Tchoupinax <corentinfiloche@hotmail.fr>",
+  "license": "MIT",
+  "scripts": {
+    "day-1": "vite-node solutions/day-1",
+    "day-1:watch": "nodemon -e ts --exec \"vite-node solutions/day-1\"",
+    "lint": "eslint '**/*.ts' || true"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.10",
+    "@typescript-eslint/eslint-plugin": "^5.45.0",
+    "@typescript-eslint/parser": "^5.45.0",
+    "eslint": "^8.28.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.5.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-simple-import-sort": "^8.0.0",
+    "eslint-plugin-typescript-sort-keys": "^2.1.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "nodemon": "^2.0.20",
+    "typescript": "^4.9.3",
+    "vite-node": "^0.25.3"
+  }
+}
