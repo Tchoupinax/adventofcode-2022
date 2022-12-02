@@ -26,10 +26,10 @@ for (let i = 0; i < arrayText.length; i++) {
   }
 }
 
-console.log("The answer is of part 1 is %s", biggestCalorieSum);
+console.log("The answer of part 1 is %s", biggestCalorieSum);
 
 const sortedSums = sums
   .sort((a, b) => b - a)
   .filter((n) => !Number.isNaN(n));
 
-console.log("The answer is of part 2 is %s", sortedSums.at(0)! + sortedSums.at(1)! + sortedSums.at(2)!);
+console.log("The answer of part 2 is %s", sortedSums.at(0)! + sortedSums.at(1)! + sortedSums.at(2)!);

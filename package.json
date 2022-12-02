@@ -8,6 +8,8 @@
   "scripts": {
     "day-1": "vite-node solutions/day-1",
     "day-1:watch": "nodemon -e ts --exec \"vite-node solutions/day-1\"",
+    "day-2": "vite-node solutions/day-2",
+    "day-2:watch": "nodemon -e ts --exec \"vite-node solutions/day-2\"",
     "lint": "eslint '**/*.ts' || true"
   },
   "devDependencies": {
