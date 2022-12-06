@@ -10,22 +10,24 @@
     "day-1:watch": "nodemon -e ts --exec \"vite-node solutions/day-1\"",
     "day-2": "vite-node solutions/day-2",
     "day-2:watch": "nodemon -e ts --exec \"vite-node solutions/day-2\"",
+    "day-6": "vite-node solutions/day-6",
+    "day-6:watch": "nodemon -e ts --exec \"vite-node solutions/day-6\"",
     "lint": "eslint '**/*.ts' || true"
   },
   "devDependencies": {
-    "@types/node": "^18.11.10",
-    "@typescript-eslint/eslint-plugin": "^5.45.0",
-    "@typescript-eslint/parser": "^5.45.0",
-    "eslint": "^8.28.0",
+    "@types/node": "^18.11.11",
+    "@typescript-eslint/eslint-plugin": "^5.45.1",
+    "@typescript-eslint/parser": "^5.45.1",
+    "eslint": "^8.29.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-n": "^15.5.1",
+    "eslint-plugin-n": "^15.6.0",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-simple-import-sort": "^8.0.0",
     "eslint-plugin-typescript-sort-keys": "^2.1.0",
     "eslint-plugin-unused-imports": "^2.0.0",
     "nodemon": "^2.0.20",
     "typescript": "^4.9.3",
-    "vite-node": "^0.25.3"
+    "vite-node": "^0.25.4"
   }
 }
