@@ -12,9 +12,15 @@
     "day-2:watch": "nodemon -e ts --exec \"vite-node solutions/day-2\"",
     "day-6": "vite-node solutions/day-6",
     "day-6:watch": "nodemon -e ts --exec \"vite-node solutions/day-6\"",
+    "day-7": "vite-node solutions/day-7",
+    "day-7:watch": "nodemon -e ts --exec \"vite-node solutions/day-7\"",
     "lint": "eslint '**/*.ts' || true"
   },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
   "devDependencies": {
+    "@types/lodash": "^4.14.191",
     "@types/node": "^18.11.11",
     "@typescript-eslint/eslint-plugin": "^5.45.1",
     "@typescript-eslint/parser": "^5.45.1",
